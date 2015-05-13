@@ -1,0 +1,138 @@
+﻿body {
+    font-family: Calibri, Arial;
+    font-size: 18px;
+    background-color: #648cad;
+    margin: 0;
+}
+
+button, input[type=button], input[type=reset], input[type=submit] {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 2px 15px 2px 15px;
+    background-color: #38536a;
+    color: #ffffff;
+    border: 2px solid silver;
+    border-radius: 25px;
+}
+
+    button:hover, input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover {
+        color: lightsalmon;
+    }
+
+    button:active, input[type=button]:active, input[type=reset]:active, input[type=submit]:active {
+        color: #778899;
+        border: 2px solid lightsalmon;
+    }
+
+#DivHeading {
+    color: lightsalmon;
+    text-align: left;
+    padding-left: 23px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #38536a;
+}
+
+#DivContainer {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    color: black;
+    padding: 4px 10px 20px 10px;
+    border: 2px solid #333333;
+}
+
+#DivMenu {
+    padding: 3px 10px 5px 10px;
+    text-align: center;
+    background-color: #778899;
+    border-top: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+}
+
+#DivCustomer {
+}
+
+#DivCustomerList {
+}
+
+#DivProduct {
+}
+
+#DivProductList {
+}
+
+#DivLogin {
+    width:300px;
+    background-color:whitesmoke;
+    border:2px solid #333333;
+    padding:0px 40px 40px 40px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+#DivTitle {
+    text-align: center;
+    color: maroon;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.contentDiv {
+    display: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.tBLong {
+    width: 230px;
+}
+
+.tBMedium {
+    width: 100px;
+}
+
+.tBShort {
+    width: 50px;
+}
+
+.tblForm {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.error {
+    color: red;
+	font-weight:bold;
+}
+
+.message {
+    color: maroon;
+    font-weight: bold;
+    display: none;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.readonly {
+    background-color: lightgray;
+}
+
+.line {
+    border-bottom:1px solid #333333;
+}
